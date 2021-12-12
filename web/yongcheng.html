@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>走进永城</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+  
+</head>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+            </button>
+          </div> 
+    </div>
+    <div class="content">
+        <h1>走进永城</h1>
+        <hr>
+ <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+ <!-- Wrapper for slides -->
+ <div class="carousel-inner" role="listbox">
+     <div class="item active">
+         <img src="../image/1631022368135.jpeg" width="1600" height="1199" alt="永城风景"/>
+<div class="carousel-caption">
+            永城风景
+        </div>
+     </div>
+     <div class="item">
+        <img src="../image/8ec614cddf204e90a2d7b1529558bb66_C_880_350.jpg" width="1600" height="896" alt="永城风景">
+<div class="carousel-caption">
+           永城风景
+        </div>
+     </div>
+
+     <div class="item">
+         <img src="../image/ed42-kcaeqzy1259341.jpg" width="1600" height="1148" alt="永城风景"/>
+<div class="carousel-caption">
+           永城风景
+        </div>
+     </div>
+ </div>
+<video src="../image/走进永城.mp4" controls="controls" id="video" > </video>
+ <!-- Controls -->
+ <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+     <span class="sr-only">Previous</span>
+ </a>
+ <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+     <span class="sr-only">Next</span>
+ </a>
+</div>
+
+        <div class="mediastyle">
+                <p class="text">永城，河南省辖县级市，由商丘市代管，河南省直管县级市，位于河南省最东部，地处豫鲁苏皖四省结合部，区域性中心城市，被评为“千年古县”，素有“豫东门户”之称，永城总面积2020平方公里。截至2020年末，辖25个乡镇、6个街道，770个行政村（社区）， 根据第七次人口普查数据，截至2020年11月1日零时，永城常住人口为1256409人。. "永城"意为"永远之城"，面积2068平方公里，人口153.12万 (2013年)。. 隋大业六年 (公元610年)置县，1996年10月设市，2014年1月1日正式成为河南省直管市。. 永城因汉高祖 刘邦 在境内的 芒砀山 斩蛇起义 而被誉为"汉兴之地"，因拥有出色的面粉加工能力成为国家唯一授予" 中国面粉城 "称号的城市。. 永城矿藏丰富，是全国六大 无烟煤 基地之一和河南省最大的 煤化工 基地。. 永城城市人均公园绿地面积11.55平方米，是河南省生态建设示范市、国家园林城市、国家卫生城市。
+中国面粉城 
+全国百强县（市） 
+国家园林城市 
+国家卫生城市
+中国长寿之乡 
+中华诗词之乡 
+全国文化先进市
+中国国际旅游文化目的地 
+中国优秀旅游城市 
+全国科普示范市 
+中国产业能力发展百强市 
+中国承接产业转移最具优势城市
+全国生态宜居城市
+全国知名品牌创建示范区
+全国科技进步先进市
+国家现代农业示范区 
+全国粮食生产先进市
+中国金融生态城市 
+浙商最佳投资城市 
+河南省文明城市 河南省卫生城市 河南省生态建设市 河南省精细化管理先进城市 </p>
+                <p><a href="http://www.ycs.gov.cn/" class="btn btn-primary" role="button">了解更多</a></p>
+        </div>    
+</div>
+<!-- footer -->
+<footer class="footer">
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <script>
+      $(function(){
+        $('#myCarousel').carousel({
+          interval:2000,
+        })
+        $('#myCarousel li').click(function(){
+          var index=$(this).attr("data-slide-to")
+          $('#myCarousel').carousel(parseInt(index))
+        })
+      })
+    </script>
+  </body>
+</html>
+
+
